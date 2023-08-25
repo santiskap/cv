@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function ColumnaIzquierda() {
     return(
-        <div className="xs:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 2xl:w-1/6 bg-gray-800 sm:p-4 md:p-4 xl:p-8 2xl:p-8 text-center bg-slate-800">
+        <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 2xl:w-1/6 bg-gray-800 sm:p-4 md:p-4 xl:p-8 2xl:p-8 text-center bg-slate-800">
             <Image alt="Santiago Tula" title="Santiago Tula" height={500} width={500} className="rounded-full ml-auto mr-auto pt-16 sm:pt-4" src="/cv.jpg" />
             <h1 className="2xl:text-4xl xl:text-3xl md:text-3xl sm:text-2xl xl:pt-8 md:pt-8 sm:pt-10 font-extrabold">SANTIAGO TULA</h1>
             <h2 className="text-2xl leading-8 pt-8 pb-8 font-semibold">FRONTEND DEVELOPER & UIX DESIGNER</h2>
