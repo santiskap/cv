@@ -5,7 +5,7 @@ import {Inicio} from "@/app/componentes/right";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="min-h-screen flex-col items-center justify-between w-full">
       <div>
           <Navegacion></Navegacion>
           <main className="flex">

@@ -44,7 +44,7 @@ const ImageModal = () => {
                 <div className="flex flex-wrap mt-6 p-4">
                     <div
                         onClick={() => handleImageClick('/heineken/heineken1.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center justify-center"
                     >
                         
                         <Image
@@ -58,7 +58,7 @@ const ImageModal = () => {
                     </div>
                     <div
                         onClick={() => handleImageClick('/heineken/heineken2.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/heineken/heineken2.jpg"
@@ -71,7 +71,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/heineken/heineken3.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/heineken/heineken3.jpg"
@@ -84,7 +84,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/heineken/heineken4.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/heineken/heineken4.jpg"
@@ -110,7 +110,7 @@ const ImageModal = () => {
                 <div className="flex flex-wrap mt-6 p-4">
                     <div
                         onClick={() => handleImageClick('/sudafrica/sudafrica1.jpg')}
-                        className="w-1/2 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/sudafrica/sudafrica1.jpg"
@@ -122,7 +122,7 @@ const ImageModal = () => {
                     </div>
                     <div
                         onClick={() => handleImageClick('/sudafrica/sudafrica2.jpg')}
-                        className="w-1/2 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/sudafrica/sudafrica2.jpg"
@@ -135,7 +135,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/sudafrica/sudafrica3.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/sudafrica/sudafrica3.jpg"
@@ -148,7 +148,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/sudafrica/sudafrica4.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/sudafrica/sudafrica4.jpg"
@@ -161,7 +161,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/sudafrica/sudafrica5.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/sudafrica/sudafrica5.jpg"
@@ -173,7 +173,7 @@ const ImageModal = () => {
                     </div>
                     <div
                         onClick={() => handleImageClick('/sudafrica/sudafrica6.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/sudafrica/sudafrica6.jpg"
@@ -185,7 +185,7 @@ const ImageModal = () => {
                     </div>
                     <div
                         onClick={() => handleImageClick('/sudafrica/sudafrica7.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/sudafrica/sudafrica7.jpg"
@@ -211,7 +211,7 @@ const ImageModal = () => {
                 <div className="flex flex-wrap mt-6 p-4">
                     <div
                         onClick={() => handleImageClick('/yopago/yopago1.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/yopago/yopago1.jpg"
@@ -223,7 +223,7 @@ const ImageModal = () => {
                     </div>
                     <div
                         onClick={() => handleImageClick('/yopago/yopago2.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/yopago/yopago2.jpg"
@@ -236,7 +236,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/yopago/yopago3.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/yopago/yopago3.jpg"
@@ -249,7 +249,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/yopago/yopago4.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/yopago/yopago4.jpg"
@@ -262,7 +262,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/yopago/yopago5.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/yopago/yopago5.jpg"
@@ -276,7 +276,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/yopago/yopago7.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/yopago/yopago7.jpg"
@@ -302,7 +302,7 @@ const ImageModal = () => {
                 <div className="flex flex-wrap mt-6 p-4">
                     <div
                         onClick={() => handleImageClick('/visago/go1.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/2 p-2 cursor-pointer"
                     >
                         <Image
                             src="/visago/go1.jpg"
@@ -314,7 +314,7 @@ const ImageModal = () => {
                     </div>
                     <div
                         onClick={() => handleImageClick('/visago/go2.jpg')}
-                        className="w-1/3 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/2 p-2 cursor-pointer"
                     >
                         <Image
                             src="/visago/go2.jpg"
@@ -342,7 +342,7 @@ const ImageModal = () => {
                 <div className="flex flex-wrap mt-6">
                     <div
                         onClick={() => handleImageClick('/lared/lared1.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/lared/lared1.jpg"
@@ -354,7 +354,7 @@ const ImageModal = () => {
                     </div>
                     <div
                         onClick={() => handleImageClick('/lared/lared2.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/lared/lared2.jpg"
@@ -367,7 +367,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/lared/lared3.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/lared/lared3.jpg"
@@ -380,7 +380,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/lared/lared4.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/lared/lared4.jpg"
@@ -393,7 +393,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/lared/lared5.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/lared/lared5.jpg"
@@ -406,7 +406,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/lared/lared6.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/lared/lared6.jpg"
@@ -432,7 +432,7 @@ const ImageModal = () => {
                 <div className="flex flex-wrap mt-6 p-4">
                     <div
                         onClick={() => handleImageClick('/megatone/megatone1.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/megatone/megatone1.jpg"
@@ -444,7 +444,7 @@ const ImageModal = () => {
                     </div>
                     <div
                         onClick={() => handleImageClick('/megatone/megatone2.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/megatone/megatone2.jpg"
@@ -457,7 +457,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/megatone/megatone3.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/megatone/megatone3.jpg"
@@ -470,7 +470,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/megatone/megatone4.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/megatone/megatone4.jpg"
@@ -483,7 +483,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/megatone/megatone5.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/megatone/megatone5.jpg"
@@ -496,7 +496,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/megatone/megatone6.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/megatone/megatone6.jpg"
@@ -522,7 +522,7 @@ const ImageModal = () => {
                 <div className="flex flex-wrap mt-6 p-4">
                     <div
                         onClick={() => handleImageClick('/tn/tn1.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/tn/tn1.jpg"
@@ -534,7 +534,7 @@ const ImageModal = () => {
                     </div>
                     <div
                         onClick={() => handleImageClick('/tn/tn2.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/tn/tn2.jpg"
@@ -547,7 +547,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/tn/tn3.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/tn/tn3.jpg"
@@ -560,7 +560,7 @@ const ImageModal = () => {
 
                     <div
                         onClick={() => handleImageClick('/tn/tn4.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/tn/tn4.jpg"
@@ -585,7 +585,7 @@ const ImageModal = () => {
                     </div>
                     <div
                         onClick={() => handleImageClick('/tn/tn6.jpg')}
-                        className="w-1/4 p-2 cursor-pointer"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/tn/tn6.jpg"
