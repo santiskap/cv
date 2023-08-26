@@ -3,7 +3,7 @@ import Link from 'next/link'
 export function Navegacion() {
     return(
 
-        <nav className="bg-white border-gray-200 dark:bg-gray-800">
+        <nav className="border-gray-200 dark:bg-gray-800">
 
             <div className="max-w-screen-xxl flex flex-wrap items-center justify-between mx-auto p-4">
                 <div>
@@ -15,7 +15,7 @@ export function Navegacion() {
                             <Link href="/" className="block py-2 pl-3 pr-4 m-0 text-gray-800 bg-amber-400 rounded md:bg-transparent dark:text-white md:dark:text-amber-400" aria-current="page">Home</Link>
                         </li>
                         <li className="m-0">
-                            <Link href="/portfolio" className="block py-2 pl-3 pr-4 m-0">Trabajos</Link>
+                            <Link href="/portfolio" className="block py-2 pl-3 pr-4 m-0" aria-current="page">Trabajos</Link>
                         </li>
                     </ul>
                 </div>
