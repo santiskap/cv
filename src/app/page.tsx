@@ -1,17 +1,26 @@
 
-import {Navegacion} from "@/app/componentes/navbar";
-import {ColumnaIzquierda} from "@/app/componentes/left";
-import {Inicio} from "@/app/componentes/right";
+import {Experiencia} from "@/app/componentes/experiencia";
+import {Edu} from "@/app/componentes/edu";
+import Skills from "@/app/componentes/Skills";
+import { ChakraProvider } from '@chakra-ui/react'
 
 export default function Home() {
   return (
     <main className="min-h-screen flex-col items-center justify-between w-full">
-      <div>
-          <Navegacion></Navegacion>
-          <main className="flex">
-              <ColumnaIzquierda></ColumnaIzquierda>
-              <Inicio></Inicio>
-          </main>
+      <div className="container m-auto">
+          <ChakraProvider>
+              <Skills></Skills>
+          </ChakraProvider>
+          <div className="flex flex-row mt-10 sm:flex-wrap">
+
+              <div className="basis-1/2 sm:basis-full">
+                <Edu></Edu>
+            </div>
+              <div className="basis-1/2 sm:basis-full">
+                  <Experiencia></Experiencia>
+              </div>
+          </div>
+
       </div>
     </main>
   )

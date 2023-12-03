@@ -38,13 +38,13 @@ const ImageModal = () => {
             <section>
                 <div className="ml-4">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Heineken</h1>
-                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4">Agencia: 451</h2>
-                    <p className="text-sm">Frontend development: HTML / CSS / Javascript. W3C Certification.</p>
+                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <p className="text-sm rosa">Frontend development: HTML / CSS / Javascript. W3C Certification.</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
                     <div
                         onClick={() => handleImageClick('/heineken/heineken1.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center justify-center"
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
                     >
                         
                         <Image
@@ -101,243 +101,11 @@ const ImageModal = () => {
                 </div>
             </section>
 
-            <section className="bg-gray-200 pt-2 pb-2">
-                <div className="ml-4 mt-10">
-                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Sudáfrica 2010</h1>
-                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4">Agencia: 451</h2>
-                    <p className="text-sm">Frontend development: HTML / CSS / Javascript.</p>
-                </div>
-                <div className="flex flex-wrap mt-6 p-4">
-                    <div
-                        onClick={() => handleImageClick('/sudafrica/sudafrica1.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/sudafrica/sudafrica1.jpg"
-                            alt="Imagen 1"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-                    <div
-                        onClick={() => handleImageClick('/sudafrica/sudafrica2.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/sudafrica/sudafrica2.jpg"
-                            alt="Imagen 2"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-
-                    <div
-                        onClick={() => handleImageClick('/sudafrica/sudafrica3.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/sudafrica/sudafrica3.jpg"
-                            alt="Imagen 3"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-
-                    <div
-                        onClick={() => handleImageClick('/sudafrica/sudafrica4.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/sudafrica/sudafrica4.jpg"
-                            alt="Imagen 4"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-
-                    <div
-                        onClick={() => handleImageClick('/sudafrica/sudafrica5.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/sudafrica/sudafrica5.jpg"
-                            alt="Imagen 5"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-                    <div
-                        onClick={() => handleImageClick('/sudafrica/sudafrica6.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/sudafrica/sudafrica6.jpg"
-                            alt="Imagen 6"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-                    <div
-                        onClick={() => handleImageClick('/sudafrica/sudafrica7.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/sudafrica/sudafrica7.jpg"
-                            alt="Imagen 7"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-
-                    {modalOpen && (
-                        <Modal imageUrl={selectedImage} onClose={closeModal} />
-                    )}
-                </div>
-            </section>
-
-            <section>
-                <div className="ml-4 mt-10">
-                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Visa - Yo pago</h1>
-                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4">Agencia: 451</h2>
-                    <p className="text-sm">Frontend development: HTML / CSS / Javascript.</p>
-                </div>
-                <div className="flex flex-wrap mt-6 p-4">
-                    <div
-                        onClick={() => handleImageClick('/yopago/yopago1.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/yopago/yopago1.jpg"
-                            alt="Imagen 1"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-                    <div
-                        onClick={() => handleImageClick('/yopago/yopago2.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/yopago/yopago2.jpg"
-                            alt="Imagen 2"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-
-                    <div
-                        onClick={() => handleImageClick('/yopago/yopago3.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/yopago/yopago3.jpg"
-                            alt="Imagen 3"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-
-                    <div
-                        onClick={() => handleImageClick('/yopago/yopago4.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/yopago/yopago4.jpg"
-                            alt="Imagen 4"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-
-                    <div
-                        onClick={() => handleImageClick('/yopago/yopago5.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/yopago/yopago5.jpg"
-                            alt="Imagen 5"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-
-
-                    <div
-                        onClick={() => handleImageClick('/yopago/yopago7.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/yopago/yopago7.jpg"
-                            alt="Imagen 6"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-
-                    {modalOpen && (
-                        <Modal imageUrl={selectedImage} onClose={closeModal} />
-                    )}
-                </div>
-            </section>
-
-            <section className="bg-gray-200 pt-2 pb-2">
-                <div className="ml-4 mt-10">
-                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Visa Go</h1>
-                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4">Agencia: 451</h2>
-                    <p className="text-sm">Frontend development: HTML / CSS / Javascript.</p>
-                </div>
-                <div className="flex flex-wrap mt-6 p-4">
-                    <div
-                        onClick={() => handleImageClick('/visago/go1.jpg')}
-                        className="w-4/4 lg:w-1/2 p-2 cursor-pointer"
-                    >
-                        <Image
-                            src="/visago/go1.jpg"
-                            alt="Imagen 1"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-                    <div
-                        onClick={() => handleImageClick('/visago/go2.jpg')}
-                        className="w-4/4 lg:w-1/2 p-2 cursor-pointer"
-                    >
-                        <Image
-                            src="/visago/go2.jpg"
-                            alt="Imagen 2"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-
-
-
-                    {modalOpen && (
-                        <Modal imageUrl={selectedImage} onClose={closeModal} />
-                    )}
-                </div>
-            </section>
-
             <section>
                 <div className="ml-4 mt-10 p-4">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Radio La Red</h1>
-                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4">Agencia: 451</h2>
-                    <p className="text-sm">Frontend development: HTML / CSS / Javascript.</p>
+                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <p className="text-sm rosa">Frontend development: HTML / CSS / Javascript.</p>
                 </div>
                 <div className="flex flex-wrap mt-6">
                     <div
@@ -391,43 +159,81 @@ const ImageModal = () => {
                         />
                     </div>
 
-                    <div
-                        onClick={() => handleImageClick('/lared/lared5.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/lared/lared5.jpg"
-                            alt="Imagen 5"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
+                    {/*<div*/}
+                    {/*    onClick={() => handleImageClick('/lared/lared5.jpg')}*/}
+                    {/*    className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"*/}
+                    {/*>*/}
+                    {/*    <Image*/}
+                    {/*        src="/lared/lared5.jpg"*/}
+                    {/*        alt="Imagen 5"*/}
+                    {/*        className="w-full h-auto rounded-md"*/}
+                    {/*        width={500}*/}
+                    {/*        height={500}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
 
-                    <div
-                        onClick={() => handleImageClick('/lared/lared6.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/lared/lared6.jpg"
-                            alt="Imagen 6"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
+                    {/*<div*/}
+                    {/*    onClick={() => handleImageClick('/lared/lared6.jpg')}*/}
+                    {/*    className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"*/}
+                    {/*>*/}
+                    {/*    <Image*/}
+                    {/*        src="/lared/lared6.jpg"*/}
+                    {/*        alt="Imagen 6"*/}
+                    {/*        className="w-full h-auto rounded-md"*/}
+                    {/*        width={500}*/}
+                    {/*        height={500}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
 
                     {modalOpen && (
                         <Modal imageUrl={selectedImage} onClose={closeModal} />
                     )}
                 </div>
             </section>
+            <section className="pt-2 pb-2">
+                <div className="ml-4 mt-10">
+                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Visa Go</h1>
+                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <p className="text-sm rosa">Frontend development: HTML / CSS / Javascript.</p>
+                </div>
+                <div className="flex flex-wrap mt-6 p-4">
+                    <div
+                        onClick={() => handleImageClick('/visago/go1.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/visago/go1.jpg"
+                            alt="Imagen 1"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+                    <div
+                        onClick={() => handleImageClick('/visago/go2.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/visago/go2.jpg"
+                            alt="Imagen 2"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
 
-            <section className="bg-gray-200 pt-2 pb-2">
+
+
+                    {modalOpen && (
+                        <Modal imageUrl={selectedImage} onClose={closeModal} />
+                    )}
+                </div>
+            </section>
+            <section className="pt-2 pb-2">
                 <div className="ml-4 mt-10">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Megatone</h1>
-                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4">Agencia: 451</h2>
-                    <p className="text-sm">Frontend development: HTML / CSS / Javascript.</p>
+                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <p className="text-sm rosa">Frontend development: HTML / CSS / Javascript.</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
                     <div
@@ -481,43 +287,232 @@ const ImageModal = () => {
                         />
                     </div>
 
-                    <div
-                        onClick={() => handleImageClick('/megatone/megatone5.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/megatone/megatone5.jpg"
-                            alt="Imagen 5"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
+                    {/*<div*/}
+                    {/*    onClick={() => handleImageClick('/megatone/megatone5.jpg')}*/}
+                    {/*    className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"*/}
+                    {/*>*/}
+                    {/*    <Image*/}
+                    {/*        src="/megatone/megatone5.jpg"*/}
+                    {/*        alt="Imagen 5"*/}
+                    {/*        className="w-full h-auto rounded-md"*/}
+                    {/*        width={500}*/}
+                    {/*        height={500}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
 
-                    <div
-                        onClick={() => handleImageClick('/megatone/megatone6.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/megatone/megatone6.jpg"
-                            alt="Imagen 6"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
+                    {/*<div*/}
+                    {/*    onClick={() => handleImageClick('/megatone/megatone6.jpg')}*/}
+                    {/*    className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"*/}
+                    {/*>*/}
+                    {/*    <Image*/}
+                    {/*        src="/megatone/megatone6.jpg"*/}
+                    {/*        alt="Imagen 6"*/}
+                    {/*        className="w-full h-auto rounded-md"*/}
+                    {/*        width={500}*/}
+                    {/*        height={500}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
 
                     {modalOpen && (
                         <Modal imageUrl={selectedImage} onClose={closeModal} />
                     )}
                 </div>
             </section>
-
             <section>
                 <div className="ml-4 mt-10">
-                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Todo Noticias</h1>
-                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4">Agencia: 451</h2>
-                    <p className="text-sm">Frontend development: HTML / CSS / Javascript.</p>
+                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Visa - Yo pago</h1>
+                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <p className="text-sm rosa">Frontend development: HTML / CSS / Javascript.</p>
+                </div>
+                <div className="flex flex-wrap mt-6 p-4">
+                    <div
+                        onClick={() => handleImageClick('/yopago/yopago1.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/yopago/yopago1.jpg"
+                            alt="Imagen 1"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+                    <div
+                        onClick={() => handleImageClick('/yopago/yopago2.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/yopago/yopago2.jpg"
+                            alt="Imagen 2"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+
+                    <div
+                        onClick={() => handleImageClick('/yopago/yopago3.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/yopago/yopago3.jpg"
+                            alt="Imagen 3"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+
+                    <div
+                        onClick={() => handleImageClick('/yopago/yopago4.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/yopago/yopago4.jpg"
+                            alt="Imagen 4"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+
+                    {/*<div*/}
+                    {/*    onClick={() => handleImageClick('/yopago/yopago5.jpg')}*/}
+                    {/*    className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"*/}
+                    {/*>*/}
+                    {/*    <Image*/}
+                    {/*        src="/yopago/yopago5.jpg"*/}
+                    {/*        alt="Imagen 5"*/}
+                    {/*        className="w-full h-auto rounded-md"*/}
+                    {/*        width={500}*/}
+                    {/*        height={500}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
+
+
+                    {/*<div*/}
+                    {/*    onClick={() => handleImageClick('/yopago/yopago7.jpg')}*/}
+                    {/*    className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"*/}
+                    {/*>*/}
+                    {/*    <Image*/}
+                    {/*        src="/yopago/yopago7.jpg"*/}
+                    {/*        alt="Imagen 6"*/}
+                    {/*        className="w-full h-auto rounded-md"*/}
+                    {/*        width={500}*/}
+                    {/*        height={500}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
+
+                    {modalOpen && (
+                        <Modal imageUrl={selectedImage} onClose={closeModal} />
+                    )}
+                </div>
+            </section>
+            <section className="pt-2 pb-2">
+                <div className="ml-4 mt-10">
+                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Sudáfrica 2010</h1>
+                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <p className="text-sm rosa">Frontend development: HTML / CSS / Javascript.</p>
+                </div>
+                <div className="flex flex-wrap mt-6 p-4">
+                    <div
+                        onClick={() => handleImageClick('/sudafrica/sudafrica1.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/sudafrica/sudafrica1.jpg"
+                            alt="Imagen 1"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+                    <div
+                        onClick={() => handleImageClick('/sudafrica/sudafrica2.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/sudafrica/sudafrica2.jpg"
+                            alt="Imagen 2"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+
+                    <div
+                        onClick={() => handleImageClick('/sudafrica/sudafrica3.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/sudafrica/sudafrica3.jpg"
+                            alt="Imagen 3"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+
+                    <div
+                        onClick={() => handleImageClick('/sudafrica/sudafrica4.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/sudafrica/sudafrica4.jpg"
+                            alt="Imagen 4"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+
+                    {/*<div*/}
+                    {/*    onClick={() => handleImageClick('/sudafrica/sudafrica5.jpg')}*/}
+                    {/*    className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"*/}
+                    {/*>*/}
+                    {/*    <Image*/}
+                    {/*        src="/sudafrica/sudafrica5.jpg"*/}
+                    {/*        alt="Imagen 5"*/}
+                    {/*        className="w-full h-auto rounded-md"*/}
+                    {/*        width={500}*/}
+                    {/*        height={500}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
+                    {/*<div*/}
+                    {/*    onClick={() => handleImageClick('/sudafrica/sudafrica6.jpg')}*/}
+                    {/*    className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"*/}
+                    {/*>*/}
+                    {/*    <Image*/}
+                    {/*        src="/sudafrica/sudafrica6.jpg"*/}
+                    {/*        alt="Imagen 6"*/}
+                    {/*        className="w-full h-auto rounded-md"*/}
+                    {/*        width={500}*/}
+                    {/*        height={500}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
+                    {/*<div*/}
+                    {/*    onClick={() => handleImageClick('/sudafrica/sudafrica7.jpg')}*/}
+                    {/*    className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"*/}
+                    {/*>*/}
+                    {/*    <Image*/}
+                    {/*        src="/sudafrica/sudafrica7.jpg"*/}
+                    {/*        alt="Imagen 7"*/}
+                    {/*        className="w-full h-auto rounded-md"*/}
+                    {/*        width={500}*/}
+                    {/*        height={500}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
+
+                    {modalOpen && (
+                        <Modal imageUrl={selectedImage} onClose={closeModal} />
+                    )}
+                </div>
+            </section>
+            <section>
+                <div className="ml-4 mt-10">
+                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Todo Noticias </h1>
+                    <h2 className="ml-4 text-md mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <p className="text-sm rosa">Frontend development: HTML / CSS / Javascript.</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
                     <div
@@ -571,30 +566,30 @@ const ImageModal = () => {
                         />
                     </div>
 
-                    <div
-                        onClick={() => handleImageClick('/tn/tn5.jpg')}
-                        className="w-1/4 p-4 cursor-pointer"
-                    >
-                        <Image
-                            src="/tn/tn5.jpg"
-                            alt="Imagen 5"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
-                    <div
-                        onClick={() => handleImageClick('/tn/tn6.jpg')}
-                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
-                    >
-                        <Image
-                            src="/tn/tn6.jpg"
-                            alt="Imagen 6"
-                            className="w-full h-auto rounded-md"
-                            width={500}
-                            height={500}
-                        />
-                    </div>
+                    {/*<div*/}
+                    {/*    onClick={() => handleImageClick('/tn/tn5.jpg')}*/}
+                    {/*    className="w-1/4 p-4 cursor-pointer"*/}
+                    {/*>*/}
+                    {/*    <Image*/}
+                    {/*        src="/tn/tn5.jpg"*/}
+                    {/*        alt="Imagen 5"*/}
+                    {/*        className="w-full h-auto rounded-md"*/}
+                    {/*        width={500}*/}
+                    {/*        height={500}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
+                    {/*<div*/}
+                    {/*    onClick={() => handleImageClick('/tn/tn6.jpg')}*/}
+                    {/*    className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"*/}
+                    {/*>*/}
+                    {/*    <Image*/}
+                    {/*        src="/tn/tn6.jpg"*/}
+                    {/*        alt="Imagen 6"*/}
+                    {/*        className="w-full h-auto rounded-md"*/}
+                    {/*        width={500}*/}
+                    {/*        height={500}*/}
+                    {/*    />*/}
+                    {/*</div>*/}
 
                     {modalOpen && (
                         <Modal imageUrl={selectedImage} onClose={closeModal} />
