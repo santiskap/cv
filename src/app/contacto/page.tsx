@@ -23,11 +23,11 @@ export default function Contacto() {
     }
   
     return (
-      <Button asChild disabled={isComposing}>
-        <a href="#" onClick={handleClick} className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide bg-gray-100 text-blue-400 transition duration-200 rounded shadow-md hover:text-white bg-teal-accent-400 hover:bg-gray-800 focus:shadow-outline focus:outline-none"
-                            >
+      <button 
+        onClick={handleClick}
+        disabled={isComposing}
+        className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide bg-gray-100 text-blue-400 transition duration-200 rounded shadow-md hover:text-white bg-teal-accent-400 hover:bg-gray-800 focus:shadow-outline focus:outline-none radius-md w-1/2 mx-auto">
           {isComposing ? 'Abriendo Gmail...' : 'Contacto'}
-        </a>
-      </Button>
+      </button>
     )
   }
