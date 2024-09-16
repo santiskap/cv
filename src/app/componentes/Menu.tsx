@@ -3,14 +3,16 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Image } from '@chakra-ui/react';
 
-const NavLink = ({ name, href }: { name: string; href: string }) => (
-  <a
-    className="px-3 py-2 rounded-md text-sm font-medium text-black hover:bg-blue-500 hover:text-white"
-    href={href}
-  >
-    {name}
-  </a>
-);
+function NavLink({ name, href }: { name: string; href: string; }) {
+    return (
+        <a
+            className="px-3 py-2 rounded-md text-sm font-medium text-black hover:bg-blue-500 hover:text-white"
+            href={href}
+        >
+            {name}
+        </a>
+    );
+}
 
 const SubNavLink = ({ name, href }: { name: string; href: string }) => (
   <a
