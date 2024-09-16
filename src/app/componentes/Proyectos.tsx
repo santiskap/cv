@@ -1,10 +1,12 @@
+import Image from "next/image";
 export default function Proyectos() {
     return(
         <div className="p-10">
             <h1 className="text-4xl text-gray-600 font-light ml-2 mb-5">PROYECTOS - REACT JS</h1>
             <section className="lg:flex flex-row md:grid">
                 <div className="basis-1/2">
-                    <img className="pr-10" width="auto" height="auto" src="/proyectos/ecommerce.png" />
+                <Image alt="Ecommerce" className="rounded-xl" width={510} height={100} src="/proyectos/ecommerce.png" />
+
                 </div>
                 <div className="xl:pt-4 basis-1/2">
                     <h1 className="text-4xl text-pink-500 pb-4"> E-commerce</h1>
@@ -51,11 +53,12 @@ export default function Proyectos() {
             <section className="mt-10 lg:flex flex-row md:grid">
                 <div className="flex mr-10 justify-center basis-1/2">
                     <div className="xl:pt-8">
-                        <img className="rounded-xl" width="230" src="/proyectos/userlist.gif" />
+                        <Image alt="Agenda de contactos" className="rounded-xl" width={230} height={100} src="/proyectos/userlist.gif" />
 
                     </div>
                     <div className="xl:pt-4 ml-8">
-                        <img className="w-72" width="auto" height="auto" src="/proyectos/user_list.png" />
+                    <Image alt="Agenda de contactos" className="rounded-xl" width={280} height={80} src="/proyectos/user_list.png" />
+                        
                     </div>
                 </div>
                 <div className="pr-4 mt-4 basis-1/2">
@@ -99,7 +102,8 @@ export default function Proyectos() {
 
             <section className="mt-10 lg:flex flex-row md:grid">
                 <div className="flex basis-1/2 justify-center">
-                    <img className="rounded-xl" width="500" src="/proyectos/tdlist.gif" />
+                
+                    <Image alt="Todo list" className="rounded-xl" width={500} height={300} src="/proyectos/tdlist.gif" />
                 </div>
                 <div className="basis-1/2">
                     <h1 className="text-4xl text-pink-500 pb-4"> To do List</h1>
