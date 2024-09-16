@@ -6,7 +6,7 @@ export function Experiencia() {
         <div>
             <div className="mt-10">
                 <FontAwesomeIcon className="w-8 float-left mr-6" icon={faBriefcase} size="xs" />
-                <h2 className=" lg:mb-10 sm:ml-0 text-4xl">Experiencia</h2>
+                <h2 className="sm:ml-0 text-4xl">Experiencia</h2>
             </div>
 
                 <div className="flex flex-row">

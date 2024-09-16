@@ -4,7 +4,7 @@ import {Progress} from "@chakra-ui/react";
 export default function Skills() {
     return (
         <div>
-            <h1 className="w-full text-4xl my-6">My Skills</h1>
+            <h1 className="w-full text-4xl my-6">Mis Skills</h1>
             <div className="flex">
                 <ul className="w-full md:columns-2">
                     <li className="mb-6">
@@ -100,7 +100,55 @@ export default function Skills() {
                             </h2>
                         </div>
                         <div>
-                            <Progress value={95} size='xs' colorScheme='pink' />
+                            <Progress value={100} size='xs' colorScheme='pink' />
+                        </div>
+                    </li>
+                    <li className="mb-6">
+                        <div>
+                            <h2 className="text-lg font-bold">Git
+                                <span className="font-light text-lg pl-2">
+                             100%
+                            </span>
+                            </h2>
+                        </div>
+                        <div>
+                            <Progress value={100} size='xs' colorScheme='pink' />
+                        </div>
+                    </li>
+                    <li className="mb-6">
+                        <div>
+                            <h2 className="text-lg font-bold">Chakra UI
+                                <span className="font-light text-lg pl-2">
+                             70%
+                            </span>
+                            </h2>
+                        </div>
+                        <div>
+                            <Progress value={70} size='xs' colorScheme='pink' />
+                        </div>
+                    </li>
+                    <li className="mb-6">
+                        <div>
+                            <h2 className="text-lg font-bold">Material UI
+                                <span className="font-light text-lg pl-2">
+                             70%
+                            </span>
+                            </h2>
+                        </div>
+                        <div>
+                            <Progress value={70} size='xs' colorScheme='pink' />
+                        </div>
+                    </li>
+                    <li className="mb-6">
+                        <div>
+                            <h2 className="text-lg font-bold">Figma
+                                <span className="font-light text-lg pl-2">
+                             50%
+                            </span>
+                            </h2>
+                        </div>
+                        <div>
+                            <Progress value={50} size='xs' colorScheme='pink' />
                         </div>
                     </li>
                 </ul>
