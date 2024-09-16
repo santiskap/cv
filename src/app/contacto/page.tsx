@@ -1,38 +1,33 @@
 "use client";
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React from 'react';
+import { Button} from '@chakra-ui/react';
+import { useState } from 'react'
 
 export default function Contacto() {
-
-    const form = useRef();
-
-    const sendEmail = (e) => {
-        e.preventDefault();
-
-        emailjs.sendForm('service_uy6e2l1', 'template_xnarxbd', form.current, 'Y_ZdufVrpSUYf1AEV')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    };
-    return(
-        <main className="flex flex-col items-center justify-between">
-            <div>
-                <main className="flex container">
-                    <h1>Contacto</h1>
-                </main>
-            </div>
-            <form ref={form} onSubmit={sendEmail}>
-                <label className="block text-gray-700 text-sm font-bold mb-2">Name</label>
-                <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-4" type="text" name="user_name" />
-                <label className="block text-gray-700 text-sm font-bold mb-2">Email</label>
-                <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-4" type="email" name="user_email" />
-                <label className="block text-gray-700 text-sm font-bold mb-2">Message</label>
-                <textarea  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-4" name="message" />
-                <div className="g-recaptcha" data-sitekey="6LdlLnMoAAAAAHNM0bqecoQoRMvcKyJP7lZgW-bI"></div>
-                <input className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline cursor-pointer" type="submit" value="Send" />
-            </form>
-        </main>
-    );
-}
+    const [isComposing, setIsComposing] = useState(false)
+  
+    const email = "santiagotula1@gmail.com"
+    const subject = "Asunto del correo"
+    const body = "Cuerpo del correo"
+  
+    const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+      e.preventDefault()
+      setIsComposing(true)
+  
+      const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+      
+      window.open(gmailUrl, '_blank')
+  
+      // Reset the composing state after a short delay
+      setTimeout(() => setIsComposing(false), 1000)
+    }
+  
+    return (
+      <Button asChild disabled={isComposing}>
+        <a href="#" onClick={handleClick} className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide bg-gray-100 text-blue-400 transition duration-200 rounded shadow-md hover:text-white bg-teal-accent-400 hover:bg-gray-800 focus:shadow-outline focus:outline-none"
+                            >
+          {isComposing ? 'Abriendo Gmail...' : 'Contacto'}
+        </a>
+      </Button>
+    )
+  }

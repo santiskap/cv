@@ -10,7 +10,7 @@ export default function Home() {
       <div className="container m-auto">
           <ChakraProvider>
               <Skills></Skills>
-          </ChakraProvider>
+          
           <div className="flex flex-row mt-10 sm:flex-wrap">
 
               <div className="basis-1/2 sm:basis-full">
@@ -20,7 +20,7 @@ export default function Home() {
                   <Experiencia></Experiencia>
               </div>
           </div>
-
+          </ChakraProvider>
       </div>
     </main>
   )

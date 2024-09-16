@@ -36,10 +36,10 @@ export default function Proyectos() {
                         </li>
                     </ul>
                     <a
-                        href="/contacto"
+                        href="#"
                         className="inline-flex items-center justify-center h-12 w-96 px-6 font-semibold tracking-wide bg-pink-500 text-white mt-2 transition duration-200 rounded shadow-md hover:text-white bg-teal-accent-400 hover:bg-gray-800 focus:shadow-outline focus:outline-none"
                     >
-                        Ver proyecto
+                        En desarrollo
                     </a>
                 </div>
 
@@ -89,7 +89,7 @@ export default function Proyectos() {
                         </li>
                     </ul>
                     <a
-                        href="/contacto"
+                        href="https://users-git-main-santiskaps-projects.vercel.app/" target="_blank"
                         className="inline-flex items-center justify-center h-12 w-96 px-6 font-semibold tracking-wide bg-pink-500 text-white mt-2 transition duration-200 rounded shadow-md hover:text-white bg-teal-accent-400 hover:bg-gray-800 focus:shadow-outline focus:outline-none"
                     >
                         Ver proyecto
@@ -97,7 +97,7 @@ export default function Proyectos() {
                 </div>
             </section>
 
-            <section className="flex mt-10">
+            <section className="mt-10 lg:flex flex-row md:grid">
                 <div className="flex basis-1/2 justify-center">
                     <img className="rounded-xl" width="500" src="/proyectos/tdlist.gif" />
                 </div>
@@ -131,7 +131,7 @@ export default function Proyectos() {
                         </li>
                     </ul>
                     <a
-                        href="/contacto"
+                        href="https://todolist-eight-beige.vercel.app/"
                         className="inline-flex items-center justify-center h-12 w-96 px-6 font-semibold tracking-wide bg-pink-500 text-white mt-2 transition duration-200 rounded shadow-md hover:text-white bg-teal-accent-400 hover:bg-gray-800 focus:shadow-outline focus:outline-none"
                     >
                         Ver proyecto

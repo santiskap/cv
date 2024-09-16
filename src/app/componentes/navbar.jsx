@@ -8,7 +8,7 @@ export default function DropdrownHandler() {
     const [deliverables, setDeliverables] = useState(false);
     return (
         <>
-            <div className="bg-gray-200 h-full w-full">
+            <div className="h-full w-full sticky top-0 z-40">
                 {/* Code block starts */}
                 <nav className="bg-white shadow xl:block hidden">
                     <div className="mx-auto container px-6 py-2 xl:py-0">
@@ -110,7 +110,7 @@ export default function DropdrownHandler() {
                                         </span>
                                         Inicio
                                     </a>
-                                    <a href="/portfolio" className="flex px-5 items-center py-6 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out">
+                                    <a href="/portfolio#Portfolio" className="flex px-5 items-center py-6 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out">
                                         <span className="mr-2">
 
 
@@ -123,7 +123,7 @@ export default function DropdrownHandler() {
                                         </span>
                                         Portfolio
                                     </a>
-                                    <a href="/proyectos" className="flex px-5 items-center py-6 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out">
+                                    <a href="/proyectos#Proyectos" className="flex px-5 items-center py-6 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out">
                                         <span className="mr-2">
                                             <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" />
@@ -133,12 +133,7 @@ export default function DropdrownHandler() {
                                         </span>
                                         Proyectos
                                     </a>
-                                    <a href="/contacto" className="flex px-5 items-center py-6 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none transition duration-150 ease-in-out">
-                                        <svg className="mr-2" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
-                                            <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/>
-                                        </svg>
-                                        Contacto
-                                    </a>
+                                    
                                 </div>
 
                             </div>
@@ -253,18 +248,6 @@ export default function DropdrownHandler() {
                                                             </svg>
                                                         </div>
                                                         <p className="text-gray-800 xl:text-base md:text-lg text-base ml-3"><a href="/proyectos">Proyectos</a></p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li className="text-gray-800 pt-8 cursor-pointer">
-                                                <div className="flex items-center justify-between">
-                                                    <div className="flex">
-                                                        <div className="w-6 h-6 md:w-8 md:h-8 text-gray-800 ml-1">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" height="1.3em" viewBox="0 0 512 512">
-                                                                <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/>
-                                                            </svg>
-                                                        </div>
-                                                        <p className="text-gray-800 xl:text-base md:text-lg text-base ml-3"><a href="/contacto">Contacto</a></p>
                                                     </div>
                                                 </div>
                                             </li>

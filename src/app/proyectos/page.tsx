@@ -7,7 +7,7 @@ export default function ProyectosPage() {
         <main className="flex">
             <div>
                 <main>
-                    <div>
+                    <div id="Proyectos">
                         <Proyectos />
                     </div>
 

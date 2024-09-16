@@ -1,3 +1,5 @@
+import Contacto from "../contacto/page";
+
 export const Header = () => {
     return (
         <div className="bg-blue-400">
@@ -54,14 +56,7 @@ export const Header = () => {
                                 Soy frontend web developer y componentizador React Js. Me especializo en el desarrollo de sitios y aplicaciones webs con código limpio, pixel perfect, animaciones CSS y diseños escalables mediante React Js, Next y Tailwind.
                             </p>
                         </div>
-                        <div>
-                            <a
-                                href="/contacto"
-                                className="inline-flex items-center justify-center h-12 px-6 font-semibold tracking-wide bg-gray-100 text-blue-400 transition duration-200 rounded shadow-md hover:text-white bg-teal-accent-400 hover:bg-gray-800 focus:shadow-outline focus:outline-none"
-                            >
-                                Contactame
-                            </a>
-                        </div>
+                        <Contacto />
                     </div>
                 </div>
             </div>

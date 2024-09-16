@@ -34,7 +34,7 @@ const ImageModal = () => {
     };
 
     return (
-        <div className="pt-6 pb-6 text-gray-900 text-center">
+        <div className="pt-6 pb-6 text-gray-900 text-center" id='Portfolio'>
             <section>
                 <div className="ml-4">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Heineken</h1>

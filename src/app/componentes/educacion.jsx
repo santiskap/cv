@@ -37,6 +37,7 @@ export function Edu2() {
                     <h3  className="mb-2 mt-6 font-semibold text-2xl rosa">Carrera terciaria - Producción Multimedia</h3>
                     <p><strong>EMBA.</strong> Escuela de Música de Buenos Aires | 2007 - 2010</p>
                 </div>
+            </div>
         </div>
 </div>
 

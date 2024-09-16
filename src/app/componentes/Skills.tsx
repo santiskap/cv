@@ -93,9 +93,9 @@ export default function Skills() {
                     </li>
                     <li className="mb-6">
                         <div>
-                            <h2 className="text-lg font-bold">Tailwind CSS -
+                            <h2 className="text-lg font-bold">Vercel
                                 <span className="font-light text-lg pl-2">
-                             95%
+                             100%
                             </span>
                             </h2>
                         </div>
