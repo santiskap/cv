@@ -1,6 +1,5 @@
 "use client";
 import React from 'react';
-import { Button} from '@chakra-ui/react';
 import { useState } from 'react'
 
 export default function Contacto() {
@@ -10,7 +9,7 @@ export default function Contacto() {
     const subject = "Asunto del correo"
     const body = "Cuerpo del correo"
   
-    const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    const handleClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
       e.preventDefault()
       setIsComposing(true)
   

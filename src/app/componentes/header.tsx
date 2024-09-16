@@ -1,4 +1,4 @@
-import Contacto from "../contacto/page";
+import Contacto from "./Contacto";
 
 export const Header = () => {
     return (
