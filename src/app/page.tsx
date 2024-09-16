@@ -1,8 +1,8 @@
 
 import {Experiencia} from "@/app/componentes/experiencia";
-import {Edu} from "@/app/componentes/edu";
 import Skills from "@/app/componentes/Skills";
 import { ChakraProvider } from '@chakra-ui/react'
+import { Edu2 } from "./componentes/Edu2";
 
 export default function Home() {
   return (
@@ -11,12 +11,12 @@ export default function Home() {
           <ChakraProvider>
               <Skills></Skills>
           
-          <div className="flex flex-row mt-10 sm:flex-wrap">
+          <div className="mt-10">
 
-              <div className="basis-1/2 sm:basis-full">
-                <Edu></Edu>
+              <div className="">
+                <Edu2></Edu2>
             </div>
-              <div className="basis-1/2 sm:basis-full">
+              <div className="">
                   <Experiencia></Experiencia>
               </div>
           </div>
