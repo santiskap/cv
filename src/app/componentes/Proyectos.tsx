@@ -38,10 +38,11 @@ export default function Proyectos() {
                         </li>
                     </ul>
                     <a
-                        href="#"
+                        href="https://ecommerce-pi-eosin-21.vercel.app/"
+                        target="_blank"
                         className="inline-flex items-center justify-center h-12 w-96 px-6 font-semibold tracking-wide bg-pink-500 text-white mt-2 transition duration-200 rounded shadow-md hover:text-white bg-teal-accent-400 hover:bg-gray-800 focus:shadow-outline focus:outline-none"
                     >
-                        En desarrollo
+                        Ver proyecto
                     </a>
                 </div>
 
