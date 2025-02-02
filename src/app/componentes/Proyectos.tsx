@@ -98,7 +98,7 @@ export default function Proyectos() {
                         </li>
                     </ul>
                     <a
-                        href="https://user-list-ten.vercel.app/"
+                        href="https://users-git-main-santiskaps-projects.vercel.app/"
                         target="_blank"
                         className="inline-flex items-center justify-center h-12 w-full md:w-96 px-6 font-semibold tracking-wide bg-pink-500 text-white mt-2 transition duration-200 rounded shadow-md hover:text-white hover:bg-gray-800"
                     >
@@ -132,7 +132,7 @@ export default function Proyectos() {
                         </li>
                     </ul>
                     <a
-                        href="https://todolist-vercel.vercel.app/"
+                        href="https://todolist-eight-beige.vercel.app/"
                         target="_blank"
                         className="inline-flex items-center justify-center h-12 w-full md:w-96 px-6 font-semibold tracking-wide bg-pink-500 text-white mt-2 transition duration-200 rounded shadow-md hover:text-white hover:bg-gray-800"
                     >
