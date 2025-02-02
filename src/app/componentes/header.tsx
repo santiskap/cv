@@ -53,7 +53,7 @@ export const Header = () => {
                 </span>
                             </h2>
                             <p className="text-base text-indigo-100 md:text-lg">
-                                Soy frontend web developer y componentizador React Js. Me especializo en el desarrollo de sitios y aplicaciones webs con código limpio, pixel perfect, animaciones CSS y diseños escalables mediante React Js, Next y Tailwind.
+                            Soy Frontend Web Developer y especialista en la creación de componentes con React.js. Me enfoco en el desarrollo de sitios y aplicaciones web utilizando código limpio, diseño pixel perfect, animaciones en CSS y soluciones escalables con React.js, Next.js y Tailwind CSS. Además, tengo experiencia en diseño de interfaces de usuario con Figma, complementado con un sólido conocimiento en experiencia de usuario (UX) para crear productos intuitivos y funcionales..
                             </p>
                         </div>
                         <Contacto />

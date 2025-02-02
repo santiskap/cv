@@ -18,7 +18,7 @@ export default function Proyectos() {
                 </div>
                 <div>
                     <h1 className="text-4xl text-pink-500 pb-4">E-commerce</h1>
-                    <p className="text-gray-700 text-blue-500 pb-4">
+                    <p className="text-gray-700 pb-4">
                         Esta aplicación comercio electrónico está realizada íntegramente en React, Next js y Chakra Ui. <br />
                         El mismo muestra una serie de productos cuyos datos son obtenidos a partir de una API de jsonplaceholder.typicode.com. Lo mismo ocurre con las publicaciones, las cuales se listan en forma de grilla.
                     </p>
@@ -65,10 +65,10 @@ export default function Proyectos() {
                 </div>
                 <div>
                     <h1 className="text-4xl text-pink-500 pb-4">Listado de contactos</h1>
-                    <p className="text-gray-700 text-blue-500 pb-4">
+                    <p className="text-gray-700 pb-4">
                         Esta aplicación está realizada íntegramente en React con Next Js y Tailwind CSS. Permite al usuario la carga de diferentes contactos que se van cargando automáticamente en una lista.
                     </p>
-                    <p className="text-gray-700 text-blue-500 pb-4">
+                    <p className="text-gray-700 pb-4">
                         La aplicación permite incorporar datos como imágenes, un nombre, la profesión y el teléfono de cada contacto.
                     </p>
                     <ul className="mb-4">
@@ -114,7 +114,7 @@ export default function Proyectos() {
                 </div>
                 <div>
                     <h1 className="text-4xl text-pink-500 pb-4">To Do List</h1>
-                    <p className="text-gray-700 text-blue-500 pb-4">
+                    <p className="text-gray-700 pb-4">
                         Esta aplicación permite crear, marcar como completadas y eliminar tareas en una lista. Está realizada con React, y hace uso del localStorage para persistir las tareas entre sesiones.
                     </p>
                     <ul className="mb-4">
@@ -136,7 +136,7 @@ export default function Proyectos() {
                         target="_blank"
                         className="inline-flex items-center justify-center h-12 w-full md:w-96 px-6 font-semibold tracking-wide bg-pink-500 text-white mt-2 transition duration-200 rounded shadow-md hover:text-white hover:bg-gray-800"
                     >
-                        Ver proyecto
+                        Ver proyecto 
                     </a>
                 </div>
             </section>
