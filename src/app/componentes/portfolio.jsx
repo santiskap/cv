@@ -41,7 +41,7 @@ const ImageModal = () => {
                     )}
                 <div className="mt-10 p-4">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Tufic Helados</h1>
-                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: Ceropixel</h2>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: Ceropixel</h2>
                     <p className="text-md rosa">UI Design: Figma</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
@@ -101,7 +101,7 @@ const ImageModal = () => {
             <section>
                 <div className="mt-10 p-4">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Mottos - En desarrollo</h1>
-                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: Ceropixel</h2>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: Ceropixel</h2>
                     <p className="text-md rosa">UI Design: Figma</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
@@ -151,7 +151,7 @@ const ImageModal = () => {
             <section>
                 <div className="mt-10 p-4">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Adai</h1>
-                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: Ceropixel</h2>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: Ceropixel</h2>
                     <p className="text-md rosa">Frontend development: HTML / CSS / Javascript / Wordpress</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
@@ -215,7 +215,7 @@ const ImageModal = () => {
             <section>
                 <div className="mt-10 p-4">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Heineken</h1>
-                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: 451</h2>
                     <p className="text-md rosa">Frontend development: HTML / CSS / Javascript. W3C Certification.</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
@@ -281,7 +281,7 @@ const ImageModal = () => {
             <section>
                 <div className="mt-10 p-4">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Radio La Red</h1>
-                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: 451</h2>
                     <p className="text-md rosa">Frontend development: HTML / CSS / Javascript.</p>
                 </div>
                 <div className="flex flex-wrap mt-6">
@@ -370,7 +370,7 @@ const ImageModal = () => {
             <section className="pt-2 pb-2">
                 <div className="ml-4 mt-10">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Visa Go</h1>
-                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: 451</h2>
                     <p className="text-md rosa">Frontend development: HTML / CSS / Javascript.</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
@@ -409,7 +409,7 @@ const ImageModal = () => {
             <section className="pt-2 pb-2">
                 <div className="ml-4 mt-10">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Megatone</h1>
-                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: 451</h2>
                     <p className="text-md rosa">Frontend development: HTML / CSS / Javascript.</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
@@ -498,7 +498,7 @@ const ImageModal = () => {
             <section>
                 <div className="ml-4 mt-10">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Visa - Yo pago</h1>
-                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: 451</h2>
                     <p className="text-md rosa">Frontend development: HTML / CSS / Javascript.</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
@@ -588,7 +588,7 @@ const ImageModal = () => {
             <section className="pt-2 pb-2">
                 <div className="ml-4 mt-10">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Sudáfrica 2010</h1>
-                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: 451</h2>
                     <p className="text-md rosa">Frontend development: HTML / CSS / Javascript.</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
@@ -688,7 +688,7 @@ const ImageModal = () => {
             <section>
                 <div className="ml-4 mt-10">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Todo Noticias </h1>
-                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold mb-4 rosa">Agencia: 451</h2>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: 451</h2>
                     <p className="text-md rosa">Frontend development: HTML / CSS / Javascript.</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
