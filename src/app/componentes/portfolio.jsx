@@ -1,6 +1,7 @@
 "use client";
 import { useState } from 'react';
 import Image from "next/image";
+import Link from 'next/link';
 
 const Modal = ({ imageUrl, onClose }) => {
     return (
@@ -99,9 +100,109 @@ const ImageModal = () => {
                 </div>
             </section>
             <section>
+            {modalOpen && (
+                        <Modal imageUrl={selectedImage} onClose={closeModal} />
+                    )}
                 <div className="mt-10 p-4">
-                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Mottos - En desarrollo</h1>
+                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Credivico</h1>
                     <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: Ceropixel</h2>
+                    <p className="text-md rosa">UI Design (Figma) - Wordpress development</p>
+                </div>
+                <div className="flex flex-wrap mt-6 p-4">
+                    <div
+                        onClick={() => handleImageClick('/credivico/credivico1.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/credivico/credivico1.jpg"
+                            alt="Imagen 1"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+
+                    </div>
+                    <div
+                        onClick={() => handleImageClick('/credivico/credivico2.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/credivico/credivico2.jpg"
+                            alt="Imagen 2"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+                    <div
+                        onClick={() => handleImageClick('/credivico/credivico3.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/credivico/credivico3.jpg"
+                            alt="Imagen 2"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+                    <div
+                        onClick={() => handleImageClick('/credivico/credivico4.jpg')}
+                        className="w-4/4 lg:w-1/4 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/credivico/credivico4.jpg"
+                            alt="Imagen 2"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+
+                    
+                </div>
+            </section>
+            <section>
+            {modalOpen && (
+                        <Modal imageUrl={selectedImage} onClose={closeModal} />
+                    )}
+                <div className="mt-10 p-4">
+                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold"><Link href="https://www.arinoga.com.ar/" target="_blank" rel="noopener noreferrer">Arinoga Finance</Link> </h1>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: Ceropixel</h2>
+                    <p className="text-md rosa">UI Design (Figma) / Wordpress development</p>
+                </div>
+                <div className="flex flex-wrap mt-6 p-4">
+                    <div
+                        onClick={() => handleImageClick('/arinoga/arinoga1.jpg')}
+                        className="w-4/4 lg:w-1/2 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/arinoga/arinoga1.jpg"
+                            alt="Imagen 1"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+
+                    </div>
+                    <div
+                        onClick={() => handleImageClick('/arinoga/arinoga2.jpg')}
+                        className="w-4/4 lg:w-1/2 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/arinoga/arinoga2.jpg"
+                            alt="Imagen 2"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="mt-10 p-4">
+                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Mottos</h1>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: Selnet</h2>
                     <p className="text-md rosa">UI Design: Figma</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
