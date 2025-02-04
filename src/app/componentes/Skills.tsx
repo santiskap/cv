@@ -5,6 +5,14 @@ export default function Skills() {
     return (
         <div>
             <h1 className="w-full text-4xl my-6">Mis Skills</h1>
+            <div className="mb-10">
+                <p>🖌️ Diseño UI/UX: Diseño de interfaces, prototipado en Figma, wireframes, sistemas de diseño y Design Thinking.</p>
+                <p>🔍 Experiencia de Usuario (UX): Arquitectura de información, user flows, heurísticas de usabilidad y pruebas con usuarios.</p>
+                <p>💻 Frontend Development: Desarrollo de componentes reutilizables con React.js, Next.js y TypeScript.</p>
+                <p>🎨 Estilos y Animaciones: Tailwind CSS, Sass, Bootstrap, Motion UI, microinteracciones y transiciones fluidas.</p>
+                <p>📌 Colaboración y Procesos: Metodologías ágiles (Scrum, Kanban), herramientas de gestión como Trello, Jira y trabajo en equipos multidisciplinarios con desarrolladores y stakeholders.</p>
+                <p>🚀 Deploy y Versionado: Git, GitHub, CI/CD con Vercel, Netlify, optimización de performance y accesibilidad.</p>
+            </div>
             <div className="flex">
                 <ul className="w-full md:columns-2">
                     <li className="mb-6">
@@ -143,12 +151,12 @@ export default function Skills() {
                         <div>
                             <h2 className="text-lg font-bold">Figma
                                 <span className="font-light text-lg pl-2">
-                             50%
+                             80%
                             </span>
                             </h2>
                         </div>
                         <div>
-                            <Progress value={50} size='xs' colorScheme='pink' />
+                            <Progress value={80} size='xs' colorScheme='pink' />
                         </div>
                     </li>
                 </ul>

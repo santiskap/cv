@@ -104,7 +104,7 @@ const ImageModal = () => {
                         <Modal imageUrl={selectedImage} onClose={closeModal} />
                     )}
                 <div className="mt-10 p-4">
-                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Credivico</h1>
+                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold"><Link href="https://www.credivico.com.ar/" target='_blank'>Credivico</Link></h1>
                     <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: Ceropixel</h2>
                     <p className="text-md rosa">UI Design (Figma) - Wordpress development</p>
                 </div>
@@ -158,8 +158,6 @@ const ImageModal = () => {
                             height={500}
                         />
                     </div>
-
-                    
                 </div>
             </section>
             <section>

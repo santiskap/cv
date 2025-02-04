@@ -53,8 +53,10 @@ export const Header = () => {
                 </span>
                             </h2>
                             <p className="text-base text-indigo-100 md:text-lg">
-                            Soy Frontend Web Developer y especialista en la creación de componentes con React.js. Me enfoco en el desarrollo de sitios y aplicaciones web utilizando código limpio, diseño pixel perfect, animaciones en CSS y soluciones escalables con React.js, Next.js y Tailwind CSS. Además, tengo experiencia en diseño de interfaces de usuario con Figma, complementado con un sólido conocimiento en experiencia de usuario (UX) para crear productos intuitivos y funcionales..
-                            </p>
+                            Soy UI/UX Designer y Frontend Developer, especializado en la creación de interfaces intuitivas y atractivas. Mi enfoque combina diseño centrado en el usuario (UX), estética visual (UI) y desarrollo frontend con React.js y Next.js para construir experiencias digitales fluidas y funcionales.</p>
+                            <p className="text-base text-indigo-100 md:text-lg">Cuento con más de 10 años de experiencia en diseño y desarrollo web, aplicando principios de diseño pixel-perfect, accesibilidad (A11Y) y animaciones en CSS para mejorar la usabilidad e interacción.</p>
+                            <p className="text-base text-indigo-100 md:text-lg">Creo en el equilibrio entre funcionalidad y diseño, asegurando que cada producto sea visualmente atractivo, accesible y fácil de usar. Mi objetivo es transformar ideas en experiencias digitales impactantes, combinando diseño estratégico y código eficiente.</p>
+
                         </div>
                         <Contacto />
                     </div>
