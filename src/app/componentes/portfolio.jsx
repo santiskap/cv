@@ -104,6 +104,43 @@ const ImageModal = () => {
                         <Modal imageUrl={selectedImage} onClose={closeModal} />
                     )}
                 <div className="mt-10 p-4">
+                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Ludiclab - Innovación educativa</h1>
+                    <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: Ceropixel</h2>
+                    <p className="text-md rosa">UI Design (Figma) / Wordpress development</p>
+                </div>
+                <div className="flex flex-wrap mt-6 p-4">
+                    <div
+                        onClick={() => handleImageClick('/ludiclab/ludiclab1.jpg')}
+                        className="w-4/4 lg:w-1/3 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/ludiclab/ludiclab1.jpg"
+                            alt="Imagen 1"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+
+                    </div>
+                    <div
+                        onClick={() => handleImageClick('/ludiclab/ludiclab2.jpg')}
+                        className="w-4/4 lg:w-1/3 p-2 cursor-pointer justify-center"
+                    >
+                        <Image
+                            src="/ludiclab/ludiclab2.jpg"
+                            alt="Imagen 2"
+                            className="w-full h-auto rounded-md"
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+                </div>
+            </section>
+            <section>
+            {modalOpen && (
+                        <Modal imageUrl={selectedImage} onClose={closeModal} />
+                    )}
+                <div className="mt-10 p-4">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold"><Link href="https://www.credivico.com.ar/" target='_blank'>Credivico</Link></h1>
                     <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: Ceropixel</h2>
                     <p className="text-md rosa">UI Design (Figma) - Wordpress development</p>
@@ -172,7 +209,7 @@ const ImageModal = () => {
                 <div className="flex flex-wrap mt-6 p-4">
                     <div
                         onClick={() => handleImageClick('/arinoga/arinoga1.jpg')}
-                        className="w-4/4 lg:w-1/2 p-2 cursor-pointer justify-center"
+                        className="w-4/4 lg:w-1/3 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/arinoga/arinoga1.jpg"
@@ -185,7 +222,7 @@ const ImageModal = () => {
                     </div>
                     <div
                         onClick={() => handleImageClick('/arinoga/arinoga2.jpg')}
-                        className="w-4/4 lg:w-1/2 p-2 cursor-pointer justify-center"
+                        className="w-4/4 lg:w-1/3 p-2 cursor-pointer justify-center"
                     >
                         <Image
                             src="/arinoga/arinoga2.jpg"
@@ -201,7 +238,7 @@ const ImageModal = () => {
                 <div className="mt-10 p-4">
                     <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Mottos</h1>
                     <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: Selnet</h2>
-                    <p className="text-md rosa">UI Design: Figma</p>
+                    <p className="text-md rosa">UI Design: Photoshop</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
                     <div
