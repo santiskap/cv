@@ -4,7 +4,7 @@ import {Progress} from "@chakra-ui/react";
 export default function Skills() {
     return (
         <div>
-            <h1 className="w-full text-4xl my-6">Mis Skills</h1>
+            <h1 className="w-full text-4xl my-6">Diseño UI/UX & Frontend Developer</h1>
             <div className="mb-10">
                 <p>🖌️ Diseño UI/UX: Diseño de interfaces, prototipado en Figma, Wireframes, Design System y Design Thinking.</p>
                 <p>🔍 Experiencia de Usuario (UX): Arquitectura de información, user flows, heurísticas de usabilidad y pruebas con usuarios.</p>
@@ -13,6 +13,7 @@ export default function Skills() {
                 <p>📌 Colaboración y Procesos: Metodologías ágiles (Scrum), herramientas de gestión como Trello, Jira y trabajo en equipos multidisciplinarios con desarrolladores y stakeholders.</p>
                 <p>🚀 Deploy y Versionado: Git, GitHub, CI/CD con Vercel, optimización de performance y accesibilidad.</p>
             </div>
+            {/** 
             <div className="flex">
                 <ul className="w-full md:columns-2">
                     <li className="mb-6">
@@ -161,6 +162,7 @@ export default function Skills() {
                     </li>
                 </ul>
             </div>
+             */}
         </div>
 
         )

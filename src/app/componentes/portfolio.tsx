@@ -171,9 +171,9 @@ const ImageModal: React.FC = () => {
                     <Modal imageUrl={selectedImage} onClose={closeModal} onNext={showNextImage} onPrev={showPrevImage} />
                 )}
                 <div className="mt-10 p-4">
-                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold">Ludiclab - Innovación educativa</h1>
+                    <h1 className="ml-4 text-3xl mb-4 sm:ml-0 font-extrabold"><Link href="https://ludiclab.vercel.app/" target='_blank'>Ludiclab - Innovación educativa</Link></h1>
                     <h2 className="ml-4 text-2xl mb-4 sm:ml-0 font-bold rosa">Agencia: Ceropixel</h2>
-                    <p className="text-md rosa">UI Design (Figma) / Wordpress development</p>
+                    <p className="text-md rosa">UI/UX Design (Figma) / React / Next / Tailwind / Typescript</p>
                 </div>
                 <div className="flex flex-wrap mt-6 p-4">
                     {images.slice(4, 7).map((image, index) => (
