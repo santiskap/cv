@@ -18,12 +18,24 @@ export function Experiencia() {
                         </div>
                     </div>
                 </div>
+
                 <div className="flex flex-row">
                     <div>
                         <div className="pb-2">
                             <h3 className="font-semibold pt-6 text-gray-800 text-lg">2020-2023</h3>
                             <h3 className="font-semibold text-2xl rosa">Frontend Developer - UI/UX Designer</h3>
-                            <p> <strong>FLACSO</strong> Frontend Developer, UX/UI Designer & Wordpress developer. Product Manager. Scrum master.</p>
+                            <p> <strong>FLACSO</strong> Sr. Frontend Developer, UX/UI Designer & Wordpress developer. Elementor. Product Manager. Scrum master.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flex flex-row">
+                    <div>
+                        <div className="pb-2">
+                            <h3 className="font-semibold pt-6 text-gray-800 text-lg">2016-2018</h3>
+                            <h3 className="font-semibold text-2xl rosa">Front-end Developer</h3>
+                            <p> <strong>Latinlingua</strong> Sr. Frontend developer, Pixel Perfect, CSS3, HTML5, Javascript y Jquery para la cuenta BlackBerry.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -44,18 +56,7 @@ export function Experiencia() {
                         <div className="pb-2">
                             <h3 className="font-semibold pt-6 text-gray-800 text-lg">2014-2015</h3>
                             <h3 className="font-semibold text-2xl rosa">Front-end Developer</h3>
-                            <p> <strong>CMD - Grupo Clarín</strong>. Frontend developer, Pixel Perfect, PSD to HTML, CSS3, HTML5, Javascript y Jquery.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="flex flex-row">
-                    <div>
-                        <div className="pb-2">
-                            <h3 className="font-semibold pt-6 text-gray-800 text-lg">2012-2013</h3>
-                            <h3 className="font-semibold text-2xl rosa">Front-end Developer</h3>
-                            <p> <strong>Latinlingua</strong> Frontend developer, Pixel Perfect, CSS3, HTML5, Javascript y Jquery.
-                            </p>
+                            <p> <strong>CMD - Grupo Clarín</strong>. Ssr. Frontend developer, UI Design, Pixel Perfect, PSD to HTML, CSS3, HTML5, Javascript y Jquery.</p>
                         </div>
                     </div>
                 </div>
@@ -65,7 +66,7 @@ export function Experiencia() {
                         <div className="pb-2">
                             <h3 className="font-semibold pt-6 text-gray-800 text-lg">2010 - 2012</h3> 
                             <h3 className="font-semibold text-2xl rosa">Front-end Developer</h3>
-                            <p> <strong>Agencia 451</strong>. Frontend developer, CSS animation, Javascript y Jquery.</p>
+                            <p> <strong>Agencia 451</strong>. Ssr. Frontend developer, CSS animation, Javascript y Jquery.</p>
                         </div>
                     </div>
                 </div>
@@ -75,7 +76,7 @@ export function Experiencia() {
                         <div className="pb-2">
                             <h3 className="font-semibold pt-6 text-gray-800 text-lg">2009-2010</h3>
                             <h3 className="font-semibold text-2xl rosa">PSD to HTML/CSS</h3>
-                            <p> <strong>Escuela Argentina de Negocios</strong>. Frontend developer, Javascript y Jquery.
+                            <p> <strong>Escuela Argentina de Negocios</strong>. Jr. Frontend developer, Javascript y Jquery.
                             </p>
                         </div>
                     </div>
